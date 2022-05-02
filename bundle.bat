@@ -1,0 +1,1 @@
+deno bundle ./src/client/mod.ts ./web.js
