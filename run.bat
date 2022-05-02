@@ -1,1 +1,1 @@
-deno run --allow-all --unstable src/client/mod.ts
+deno run --allow-all --unstable src/deno/mod.ts
