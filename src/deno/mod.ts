@@ -3,7 +3,6 @@ import { XON } from "./xon/index.ts";
 
 const html = XON.parse(await Deno.readTextFile("./src/client/index.xns"));
 
-console.log(html)
 const webview = new Webview();
 webview.navigate(`data:text/html,${encodeURIComponent(html)}`);
 webview.title = "Mineosaur Client"
