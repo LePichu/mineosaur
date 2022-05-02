@@ -1,9 +1,6 @@
 !html
 html {
-    head {
-        title "Test!"
-    }
     body {
-        p "Test!"
+        canvas
     }
 }
