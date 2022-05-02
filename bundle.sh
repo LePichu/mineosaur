@@ -1,1 +1,1 @@
-deno bundle ./src/client/mod.ts ./web.js
+deno bundle ./src/client/mod.ts ./bundle/mod.js
